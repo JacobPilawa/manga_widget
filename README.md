@@ -5,11 +5,9 @@
 
 I wanted to do some visualization of the MANGA IFU data, and I came across the package [marvin](https://sdss-marvin.readthedocs.io/en/latest/index.html) which helps you do that. The documentation and tutorials are the primary inspiration and guide for this widget. 
 
-There are essentially a bunch of sub-functions which do various analyses on the MANGA data. One set of routines produces plots of the gas and stellar kinematics. The other set of routines finds the spaxels which are labelled "star-forming" from their BPT diagram placement, and uses some stellar population models to infer the stellar mass and stellar surface density of a galaxy. It results in a nice plot of the "spatially resolved stellar surface density-gas phase metallicity relation."
+The purpose of the widget is to visualize (i) the kinematics of stars and gas in galaxies, and (ii) plot the mass-metallicity relation of star-forming spaxels (based on BPT diagram placement) compared to the mass-metallicity relation of Barerra-Ballestros+2016. There are two functions that do these tasks, called ``run_kinematics'' and ``run_metallicity'' respectively. The widget.ipynb shows two example function calls. All you need to do is specify the object_name, which in this case refers to the mange "plateifu" number (which is almost universally reported in the literature). There are sample plots included in the ``kinematic_plots'' and ``metallicity_plots'' directories in case you don't want to run the functions yourself. They can take a minute to run. 
 
-All you need to do is specify the object_name, which in this case refers to the mange "plateifu" number (which is almost universally reported in the literature). 
-
-There are sample plots included in the ``kinematic_plots'' and ``metallicity_plots'' directories in case you don't want to run the functions yourself. They can take a minute to run. 
+I think this widget could be useful in a variety of ways. First, I am a big fan of the plots that are made as a result, and I think they could be useful in lecture or presentations (maybe with slight modification). I think they also can help students make connections between morphology and kinematics, as well as morphology and star formation given the spatially resolved spectral maps that are plotted as a result. In creating this widget, I gained a better understanding of BPT diagrams as well, which might transfer to folks using this widget.
 
 ## Instructions
 
