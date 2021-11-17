@@ -2,7 +2,8 @@
 
 ## Background
 
-I wanted to do some visualization of the MANGA IFU data, and I came across the package [marvin](https://sdss-marvin.readthedocs.io/en/latest/index.html) which helsp you do that. 
+
+I wanted to do some visualization of the MANGA IFU data, and I came across the package [marvin](https://sdss-marvin.readthedocs.io/en/latest/index.html) which helps you do that. The documentation and tutorials are the primary inspiration and guide for this widget. 
 
 There are essentially a bunch of sub-functions which do various analyses on the MANGA data. One set of routines produces plots of the gas and stellar kinematics. The other set of routines finds the spaxels which are labelled "star-forming" from their BPT diagram placement, and uses some stellar population models to infer the stellar mass and stellar surface density of a galaxy. It results in a nice plot of the "spatially resolved stellar surface density-gas phase metallicity relation."
 
