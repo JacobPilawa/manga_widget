@@ -1,0 +1,1 @@
+# place the firefly manga_firefly-v2_1_2-STELLARPOP.fits file in this directory!
